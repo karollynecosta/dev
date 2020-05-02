@@ -71,7 +71,7 @@ export const NavB = styled.nav`
   }
 
   .toggle {
-    display: none;
+    display: block;
   }
 
   .bars {

@@ -12,9 +12,12 @@ function cssTrigger() {
           <input type="checkbox" className="trigger-input" id="faq-titulo-1" />
           <div className="trigger-conteudo">
             <label htmlFor="faq-titulo-1">
-              <h2 className="titulo">Div?</h2>
+              <h2 className="titulo">Css Puro?</h2>
             </label>
-            <p className="faq-conteudo">SIm, esta usando DIV + input + label</p>
+            <p className="faq-conteudo">
+              Sim, esta página está usando DIV + input + label com operador
+              lógico
+            </p>
           </div>
         </div>
 
@@ -22,9 +25,14 @@ function cssTrigger() {
           <input type="checkbox" className="trigger-input" id="faq-titulo-2" />
           <div className="trigger-conteudo">
             <label htmlFor="faq-titulo-2">
-              <h2 className="titulo">Aplicar?</h2>
+              <h2 className="titulo">
+                Ainda é vantajoso utilizar o CSS sem frameworks?
+              </h2>
             </label>
-            <p className="faq-conteudo">SIm, de certo</p>
+            <p className="faq-conteudo">
+              Sim, de certo. O CSS avançou em larga escala, chegando em um ponto
+              que ajuda na verbosidade, como é o caso desta pág.
+            </p>
           </div>
         </div>
 
