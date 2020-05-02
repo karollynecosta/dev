@@ -1,8 +1,6 @@
 import React from 'react';
 
-import api from '../../services/api';
-
-import { Container, Button } from './styles';
+import { Container } from './styles';
 
 function cssTrigger() {
   return (
@@ -37,10 +35,9 @@ function cssTrigger() {
               <h2 className="titulo">Css trigger?</h2>
             </label>
             <p className="faq-conteudo">
-              SIm, vou pesquisar o que significa ainda... usando DIV + input +
-              label. Segredo: .trigger-input:checked <b>+</b> .trigger-conteudo
-              .faq-conteudo display: block; esse + é condicional para fazer esse
-              efeito com duas div
+              SIm, usando DIV + input + label. Segredo: .trigger-input:checked{' '}
+              <b>+</b> .trigger-conteudo .faq-conteudo display: block; esse + é
+              condicional para fazer esse efeito com duas div
             </p>
           </div>
         </div>

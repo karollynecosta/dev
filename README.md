@@ -24,9 +24,10 @@ Nodejs + ReactJS
 <p>Axios</p>
 
 <p>Para inicialização deste projeto você deve utilizar os comandos:
+- Front-end:
 yarn 
 yarn dev
-yarn test </p>
+ </p>
 
 # :mailbox: DEV
 
