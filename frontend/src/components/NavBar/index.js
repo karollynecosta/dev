@@ -7,23 +7,26 @@ export default function NavBar() {
   return (
     <Body>
       <NavB>
-        <ul class="menu">
-          <li class="logo">
+        <ul className="menu">
+          <li className="logo">
             <a href="/">
               <img src={logo} alt="KC" />
             </a>
           </li>
-          <li class="item">
+          <li className="item">
             <a href="/">@rocketseat/unform</a>
           </li>
-          <li class="item">
+          <li className="item">
             <a href="/css">Css</a>
           </li>
-          <li class="item button">
+          <li className="item">
+            <a href="/testes">Testes</a>
+          </li>
+          <li className="item button">
             <a href="/dev">DEV</a>
           </li>
-          <li class="toggle">
-            <span class="bars"></span>
+          <li className="toggle">
+            <span className="bars"></span>
           </li>
         </ul>
       </NavB>

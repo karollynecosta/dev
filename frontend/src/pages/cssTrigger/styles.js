@@ -17,6 +17,26 @@ export const Container = styled.div`
     text-transform: uppercase;
   }
 
+  /** Modal */
+  .modal {
+    position: fixed;
+    top: 1%;
+    left: 30%;
+    color: #fff;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.75);
+    opacity: 0;
+  }
+
+  .modal:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .fechar {
+    text-decoration: none;
+  }
+
   .lista-perguntas {
     max-width: 400px;
     margin: 0 auto;

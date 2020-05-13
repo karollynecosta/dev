@@ -1,5 +1,4 @@
 import React, { useRef, useEffect, useState } from 'react';
-import { Modal, Button } from 'react-bootstrap';
 
 import api from '../../services/api';
 
@@ -10,11 +9,6 @@ function Unform() {
   const [heroes, setHeroes] = useState([]);
   const [selectHeroes, setSelectHeroes] = useState(null);
   const [player, setPlayer] = useState([]);
-
-  const [show, setShow] = useState(false);
-
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
 
   async function handleSubmit(data, { reset }) {
     // const response = await api.post("/players", {
@@ -66,26 +60,7 @@ function Unform() {
             ))}
           </select>
 
-          <Button variant="primary" onClick={handleShow}>
-            Go
-          </Button>
-
-          <Modal show={show} onHide={handleClose}>
-            <Modal.Header closeButton>
-              <Modal.Title>Confirme seu Hero</Modal.Title>
-            </Modal.Header>
-            <Modal.Body>
-              Seu nome: <b>{player}</b>, seu Hero:<b>{selectHeroes}</b>
-            </Modal.Body>
-            <Modal.Footer>
-              <Button variant="secondary" onClick={handleClose}>
-                Close
-              </Button>
-              <Button variant="primary" onClick={handleClose}>
-                Save Changes
-              </Button>
-            </Modal.Footer>
-          </Modal>
+          <button className="button">Go</button>
         </Form>
       </Container>
     </>
