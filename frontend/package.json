@@ -9,7 +9,7 @@
     "@unform/core": "^2.0.0",
     "@unform/web": "^2.0.0",
     "antd": "^4.0.4",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "jquery": "^3.5.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.0",
